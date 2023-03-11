@@ -1,0 +1,156 @@
+body {
+    color: #40514e;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    margin: 0;
+    text-align: center; /*USE MARGIN: 0 auto; TO CENTER A BLOCK WITH A WIDTH VALUE*/
+}
+
+a {
+    color: #11999E;
+    font-family: 'montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eaf6f6;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'sacramento', cursive;
+    font-size: 4.375rem; /* I need to fix this in percentage always. 
+                    To calculate it, divide the px number to 16px and multiply by 100% 
+                    OR I CAN ALSO USE 1em = 16px and 70px = 4.375em. Nowsadays we should use rem.*/
+    line-height: 2;
+    margin: 50px auto 0 auto;
+    
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+hr {
+    width: 5%;
+    border-top-style: none;
+    border-style: dotted none none;
+    border-width: 5px;
+    border-color: grey;
+    margin: 100px auto;
+}
+
+p {
+    margin: 0;
+    line-height: 2;                    /*This doubles the line height in the skill-rows. 
+                                    THERE IS NO NEED FOR UNITS IN THIS MATTER*/
+}
+.top-container {
+    background-color: #ECF2FF;
+    position: relative;
+    padding-top: 100px;
+    
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+.skill-row {
+    width: 50%;                          /*This decreases the width of the two rows*/
+    margin: 100px auto 100px auto;      /*This centers the two skill-rows*/
+    text-align: left;                  /*This makes the texts in the skill-rows aligned in the left.*/
+    
+    
+}
+
+.webdev-img {
+    width: 25%;
+    float: left; /*This makes the image on the left of the skill rows.*/
+    margin-right: 30px; /* Or I can use padding-right: 30px;*/
+    overflow-clip-margin: inherit;
+}
+
+.python {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999e);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #30e3cd, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cd, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cd, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cd, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cd, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .intro {
+    width: 30%;
+    margin: auto;
+
+  }
+
+.middle-container {
+    margin: 100px 0;
+    line-height: 2; 
+    
+}
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px 0;
+    font-size: 1.5rem;
+  
+    
+}
+
+.right-reserved {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
